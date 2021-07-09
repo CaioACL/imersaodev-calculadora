@@ -15,7 +15,7 @@ if (operacao == 1) {
   var resultado = primVal + segVal
   document.write("<h2>" + primVal + " + " + segVal + " = " + resultado + "</h2>")
 } else if (operacao == 4) {
-  var resultado = primVal + segVal
+  var resultado = primVal - segVal
   document.write("<h2>" + primVal + " - " + segVal + " = " + resultado + "</h2>")
 } else {
   document.write("<h2>Opção Inválida</h2>")
